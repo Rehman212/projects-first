@@ -11,7 +11,7 @@ export default function AboutSection() {
         <div className="relative flex justify-center">
           <div className="relative w-[480px] h-[420px] rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="https://plus.unsplash.com/premium_photo-1672997189701-7719c27a81af?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" // Replace with your image
+              src="https://cdn.pixabay.com/photo/2016/08/02/11/13/graphic-design-studio-1563080_1280.jpg" // Replace with your image
               alt="Team discussing strategy"
               fill
               className="object-cover"
@@ -19,7 +19,7 @@ export default function AboutSection() {
           </div>
           <div className="absolute bottom-4 left-4 w-48 h-50 rounded-xl overflow-hidden shadow-md border-4 border-white">
             <Image
-              src="/assests/images/gallery-3.Webp" // Replace with your image
+              src="https://cdn.pixabay.com/photo/2016/08/02/11/13/graphic-design-studio-1563080_1280.jpg" // Replace with your image
               alt="Team meeting"
               fill
               className="object-cover"
