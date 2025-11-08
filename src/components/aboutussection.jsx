@@ -19,7 +19,7 @@ export default function AboutSection() {
           </div>
           <div className="absolute bottom-4 left-4 w-48 h-50 rounded-xl overflow-hidden shadow-md border-4 border-white">
             <Image
-              src="https://cdn.pixabay.com/photo/2016/08/02/11/13/graphic-design-studio-1563080_1280.jpg" // Replace with your image
+              src="/assests/images/gallery-3.webp" // Replace with your image
               alt="Team meeting"
               fill
               className="object-cover"
