@@ -77,7 +77,7 @@ export default function Nextfeatures(){
           </div>
         </div>
         <div className="w-full">
-          <img src="/assests/images/bg-image.Jpg" alt="social-img"
+          <img src="/assests/images/bg-image.jpg" alt="social-img"
             className="w-full rounded-2xl" />
         </div>
       </div>
