@@ -5,8 +5,10 @@ import { useState, useEffect } from "react";
 
 export default function DashboardLayout({ children }) {
   const [time, setTime] = useState(new Date());
+  const [mounted, setMounted] = useState(false); // track client mount
 
   useEffect(() => {
+    setMounted(true); // mounted = true on client
     const interval = setInterval(() => {
       setTime(new Date());
     }, 1000);
@@ -27,7 +29,7 @@ export default function DashboardLayout({ children }) {
           <div>
             <h2 className="text-black text-3xl font-bold pb-1">Dashboard</h2>
             <h1 className="text-[15px] font-semibold text-[#A91B1A]">
-              {formattedTime}
+              {mounted ? formattedTime : "--:--:--"} {/* placeholder until client */}
             </h1>
           </div>
 

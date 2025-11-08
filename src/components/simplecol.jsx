@@ -1,6 +1,11 @@
 "use client";
-import React from "react";
-import ReactApexChart from "react-apexcharts";
+
+import dynamic from "next/dynamic";
+
+// Dynamically import ReactApexChart only on the client
+const ReactApexChart = dynamic(() => import("react-apexcharts"), {
+  ssr: false,
+});
 
 export default function SimpleCol() {
   const isRtl = false;
@@ -22,7 +27,7 @@ export default function SimpleCol() {
         type: "bar",
         zoom: { enabled: false },
         toolbar: { show: false },
-        background: "#ffffff", // ✅ Makes ApexChart background white
+        background: "#ffffff",
       },
       colors: ["#805dca", "#e7515a"],
       dataLabels: { enabled: false },
@@ -67,7 +72,7 @@ export default function SimpleCol() {
   };
 
   return (
-    <div className="rounded-lg bg-white  text-black overflow-hidden p-4 shadow-md">
+    <div className="rounded-lg bg-white text-black overflow-hidden p-4 shadow-md">
       <ReactApexChart
         series={columnChart.series}
         options={columnChart.options}

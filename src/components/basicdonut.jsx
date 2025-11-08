@@ -1,6 +1,8 @@
 "use client";
-import React from "react";
-import ReactApexChart from "react-apexcharts";
+import dynamic from "next/dynamic";
+
+// Dynamically import ReactApexChart only on the client
+const ReactApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 export default function DonutChart() {
   const donutChart = {
@@ -9,7 +11,7 @@ export default function DonutChart() {
       chart: {
         height: 300,
         type: "donut",
-        background: "#ffffff", // ✅ Always white background
+        background: "#ffffff",
         toolbar: { show: false },
       },
       stroke: { show: false },
