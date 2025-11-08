@@ -106,7 +106,7 @@ export default function Herosection(){
  
 
     <div className="relative ms-4">
-      <img className="w-full h-145 rounded-md pt-10 " src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="Hero Image"/>
+      <img className="w-full h-145 rounded-md pt-10 " src="#" alt="Hero Image"/>
       <div className="absolute inset-0 -z-1 bg-linear-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
     
