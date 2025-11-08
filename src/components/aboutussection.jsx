@@ -11,7 +11,7 @@ export default function AboutSection() {
         <div className="relative flex justify-center">
           <div className="relative w-[480px] h-[420px] rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="https://cdn.pixabay.com/photo/2016/08/02/11/13/graphic-design-studio-1563080_1280.jpg" // Replace with your image
+              src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" // Replace with your image
               alt="Team discussing strategy"
               fill
               className="object-cover"
