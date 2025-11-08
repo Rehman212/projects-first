@@ -27,7 +27,7 @@ export default function Testimonial(){
         <div className="overflow-auto px-10 pr-2 py-2 mt-6">
           <div className="min-w-[1052px] grid grid-cols-3 gap-14">
             <div className="max-w-[360px] h-auto py-5 pl-14 pr-4 bg-white border-2 border-gray-200 rounded-3xl relative">
-              <img src="/assests/images/favicon.Webp" className="w-20 h-20 rounded-full absolute -left-10 top-0 bottom-0 my-auto border-2 border-gray-300" />
+              <img src="/assests/images/favicon.webp" className="w-20 h-20 rounded-full absolute -left-10 top-0 bottom-0 my-auto border-2 border-gray-300" />
 
               <div>
                 <h6 className="text-[#A31D1D] text-[15px] font-semibold">John Doe</h6>
@@ -68,7 +68,7 @@ export default function Testimonial(){
             </div>
 
             <div className="max-w-[360px] h-auto py-5 pl-14 pr-4 bg-white border-2 border-gray-200 rounded-3xl relative">
-              <img src="/assests/images/favicon.Webp" className="w-20 h-20 rounded-full absolute -left-10 top-0 bottom-0 my-auto border-2 border-gray-300" />
+              <img src="/assests/images/favicon.webp" className="w-20 h-20 rounded-full absolute -left-10 top-0 bottom-0 my-auto border-2 border-gray-300" />
 
               <div>
                 <h6 className="text-[#A31D1D] text-[15px] font-semibold">Mark Adair</h6>
@@ -109,7 +109,7 @@ export default function Testimonial(){
             </div>
 
             <div className="max-w-[360px] h-auto py-5 pl-14 pr-4 bg-white border-2 border-gray-200 rounded-3xl relative">
-              <img src="/assests/images/favicon.Webp" className="w-20 h-20 rounded-full absolute -left-10 top-0 bottom-0 my-auto border-2 border-gray-300" />
+              <img src="/assests/images/favicon.webp" className="w-20 h-20 rounded-full absolute -left-10 top-0 bottom-0 my-auto border-2 border-gray-300" />
 
               <div>
                 <h6 className="text-[#A31D1D] text-[15px] font-semibold">Simon Konecki</h6>
